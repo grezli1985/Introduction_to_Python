@@ -76,7 +76,19 @@ def Day(number):
 ''' 2. Напишите программу для. проверки истинности утверждения 
    ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.'''
 
+print('x y z \t¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z')
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            print(x, y, z, '\t', not(x or y or z) == (not(x) and not(y) and not(z)))
 
+
+# print('x y z \t¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z')
+# for n in range(64):
+#     n = bin(n)[2:].rjust(6, '0')
+#     print(n)
+#     # x, y, z = int(n[0]), int(n[1]), int(n[2])
+#     # print(x, y, z, '\t', not(x or y or z) == (not(x) and not(y) and not(z)))
 
 
 
