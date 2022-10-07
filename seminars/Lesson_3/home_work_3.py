@@ -103,14 +103,15 @@
 [-21 ,13, -8, 5, -3, 2, -1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21] 
 Негафибоначчи  '''
 
+# n = 10
 # fib = [0, 1]
 
-# for n in range(10):
+# for i in range(n - 1):
 #     fib.append(fib[-2] - fib[-1])
 
 # fib.reverse()
 
-# for i in range(10):
+# for i in range(n):
 #     fib.append(fib[-1] + fib[-2])
 
 # print(fib)
