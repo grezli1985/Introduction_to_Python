@@ -50,24 +50,25 @@
 - [1.1, 1.2, 3.1, 5, 10.01] => 0.19   '''
 
 
-# a = [1.1, 1.2, 3.1, 5, 10.01]
+# numbers = [1.1, 1.2, 3.1, 5, 10.01]
 
-numbers = [1.1, 1.2, 3.1, 5, 10.01]
+# def only_decimal(list):
+#     decimal = []
+#     for i in range(0, len(list)):
+#         if list[i] % 1 != 0:
+#             decimal.append(round(list[i] % 1, 2))
+#     return decimal
+   
+# def diff(list):
+#     for i in range(0, len(list)):
+#         diff = max(list) - min(list)
+#     return diff
 
-def only_decimal(list):
-    decimal = []
-    for i in range(0, len(list)):
-        if list[i] % 1 != 0:
-            decimal.append(round(list[i] % 1, 2))
-    return decimal
-    
-def diff(list):
-    for i in range(0, len(list)):
-        diff = max(list) - min(list)
-    return diff
+# decimal = (only_decimal(numbers))
+# print(diff(decimal))
 
-decimal = (only_decimal(numbers))
-print(diff(decimal))
+
+
 
 ''' Задача 4
 Напишите программу, которая будет преобразовывать десятичное число в двоичное.
@@ -102,16 +103,25 @@ print(diff(decimal))
 [-21 ,13, -8, 5, -3, 2, -1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21] 
 Негафибоначчи  '''
 
-# def fib(n):
-#     if n  in [1, 2]:
-#         return 1
-#     else:
-#         return fib(n-1) + fib(n-2)
+# fib = [0, 1]
 
-# list = []
-# for e in range(1, 11):
-#     list.append(fib(e))
-# print(list) # 1 1 2 3 5 8 13 21
+# for i in range(10):
+#     fib.append(fib[-1] + fib[-2])
+
+# # print(fib)
+
+
+# neg = [0, 1]
+
+# for n in range(10):
+#     neg.append(neg[-2] - neg[-1])
+
+# neg.reverse()
+
+# print(neg + fib[1:])
+
+
+
 
 # def fibo(n):
 #     if n >= 0:
