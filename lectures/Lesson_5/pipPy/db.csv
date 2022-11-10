@@ -1,0 +1,3 @@
+Сергей, 534712396, /hi, <bound method Message.reply_text of <telegram.message.Message object at 0x7f8a0797b9f0>>
+Сергей, 534712396, /time, <bound method Message.reply_text of <telegram.message.Message object at 0x7f8a07dabe60>>
+Сергей, 534712396, /sum 12 18, <bound method Message.reply_text of <telegram.message.Message object at 0x7f8a07ddddb0>>
