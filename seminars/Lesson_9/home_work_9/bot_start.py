@@ -204,7 +204,7 @@ def bot_message(msg: telebot.types.Message):
 
         elif msg.text == 'стикер':
             logs(msg)
-            stick = open('обнимашки.webp', 'rb')
+            stick = open('obnimash.webp', 'rb')
             bot.send_sticker(msg.chat.id, stick)
 
         elif msg.text == 'Просмотр записей':
